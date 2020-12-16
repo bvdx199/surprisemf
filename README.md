@@ -3,6 +3,13 @@ Take webcam shots from target just sending a malicious link
 
 ![cheese](https://user-images.githubusercontent.com/34893261/56869077-e5714d80-69d1-11e9-8ce2-29a254021890.jpg)
 
+# SayCheese v2.0
+i have revived the code for SayCheese, (copyright thelinuxchoice). I (bvdx199) am now contributing to this tool and make another turn with it so it will be easier that the target click the link. I also renamed it to suprisemf.
+
+# TO DO
+Automatically converting the ngrok link with a link shorterner where you can choose your own extension for example: https://link.com/(your custom text here)
+
+
 # How it works?
 <p>The tool generates a malicious HTTPS page using Serveo or Ngrok Port Forwarding methods, and a javascript code to cam requests using MediaDevices.getUserMedia. </p>
 
@@ -14,8 +21,9 @@ Take webcam shots from target just sending a malicious link
 ## Installing (Kali Linux/Termux):
 
 ```
-git clone https://github.com/Anonymous3-SIT/saycheese
-cd saycheese
+git clone https://github.com/bvdx199/suprisemf
+cd suprisemf
 bash saycheese.sh
 ```
+
 
